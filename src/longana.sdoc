@@ -1,0 +1,38 @@
+/**
+ * @namespace Longana
+ */
+
+ 
+/**
+ * The root path of the current Longana library
+ * @id			JSPath
+ * @type 	{String}
+ */
+ 
+/**
+ * The location of longana.nsf.  You should override this if your NSF is not installed in the default location
+ * (/longana/longana-x_x.nsf)
+ * @id			NSFPath
+ * @type	 	{String}
+ */
+ 
+/**
+ * The Domino URL Command used to open the current document
+ * @id			URLCommand 
+ * @type	 	{String}
+ */
+ 
+/**
+ * A query string object represented as a series of key value pairs (ex. Longana.QS.key)
+ * @id			QS
+ * @type	 	{Object}
+ */
+ 
+/**
+ * Decodes (parses) a JSON string to an object. If the JSON is invalid, this function throws a SyntaxError.  This
+ * function encapsulates Ext.decode and adds some processing to remove some invalid whitespace Domino could insert
+ * into it's JSON text in certain situations
+ * @id			decode
+ * @param {String} json The JSON string
+ * @return {Object} The resulting object
+ */
